@@ -10,6 +10,10 @@ namespace GriseldaExample
     {
         static void Main(string[] args)
         {
+            Griseldamember BennyTheButcher = new Griseldamember("Benny The Butcher");
+            Griseldamember WestSideGunn = new Griseldamember("WestSideGunn");
+            Griseldamember ConwayTheMachine = new Griseldamember("ConwayTheMachine");
+            Griseldamember Daringer = new Griseldamember("Daringer");
         }
     }
 }

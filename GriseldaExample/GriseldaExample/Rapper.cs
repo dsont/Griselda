@@ -8,5 +8,12 @@ namespace GriseldaExample
 {
     class Rapper
     {
+        public Boolean haveBars;
+        public Boolean canSing;
+        public string Rap()
+        {
+            return "";
+        }
+
     }
 }

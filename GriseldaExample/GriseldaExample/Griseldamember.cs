@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace GriseldaExample
 {
-    class Griseldamember
+    class Griseldamember : Rapper
     {
+        string _name;
+        public Griseldamember(string name)
+        {
+            _name = name;
+            haveBars = true;
+            canSing = false;
+        }
     }
 }
